@@ -47,9 +47,12 @@ function App() {
   if (error) {
     content = <p>{error}</p>;
   }
+  //let gif1='https://jenleigh409.files.wordpress.com/2018/08/giphy.gif?w=288&h=346&crop=1';
+  //let gif2 ='https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif?20170503175831'
+  let gif3='https://cdn.svgator.com/assets/landing-pages/static/css-loader/57579327-0-Loaders-3.svg'
 
   if (isLoading) {
-    content = <p>Loading...</p>;
+    content = <img src={gif3} alt='gif loading' width={'95%'} height={'110rem'}/>;
   }
 
   return (
