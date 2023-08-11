@@ -7,11 +7,18 @@
 /.pnp
 .pnp.js
 
+# Ignore build output (where the transpiled and bundled code goes)
+build/
+dist/
+
 # testing
 /coverage
 
 # production
 /build
+
+# Ignore dependencies lock files
+yarn.lock
 package-lock.json
 
 # misc
